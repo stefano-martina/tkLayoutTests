@@ -1,0 +1,13 @@
+zMin(mm),rMin(mm),Zmax(mm),rMax(mm),direction,quantity,unit,X0(g/cm2),density(g/cm3)
+//Attention: for making this work you need to block the material track gun at phi=Pi/2 
+//Attention the values in modules are distributed in equivalent cylinder ((10/22)*2*PI*26)
+//first layer, 6 inner rods
+-35.5,26,35.5,26,H,74.26,g,12.86,8.96
+34.5,26,105.5,26,H,74.26,g,12.86,8.96
+104.5,26,175.5,26,H,74.26,g,12.86,8.96
+174.5,26,245.5,26,H,74.26,g,12.86,8.96
+// //first layer, 6 outer rods
+// -35.5,32,35.5,32,H,91.39,g,12.86,8.96
+// 34.5,32,105.5,32,H,91.39,g,12.86,8.96
+// 104.5,32,175.5,32,H,91.39,g,12.86,8.96
+// 174.5,32,245.5,32,H,91.39,g,12.86,8.96

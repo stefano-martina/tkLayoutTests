@@ -1,6 +1,5 @@
 zMin(mm),rMin(mm),Zmax(mm),rMax(mm),direction,quantity,unit,X0(g/cm2),density(g/cm3)
-//Attention: for making this work you need to block the material track gun at phi=Pi/2 
-//first layer, 6 inner rods
+// //first layer, 6 inner rods
 -35.5,26,35.5,26,H,0.1,mm,12.86,8.96
 34.5,26,105.5,26,H,0.1,mm,12.86,8.96
 104.5,26,175.5,26,H,0.1,mm,12.86,8.96
