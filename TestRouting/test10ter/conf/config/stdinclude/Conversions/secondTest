@@ -1,0 +1,34 @@
+// Second level conversion rules
+
+Station {
+  stationName secondTest
+  type second
+
+  minZ 1500
+  maxZ 1600
+  Conversion {
+    Input {
+      Element {
+        elementName Cu
+        quantity 1
+        unit g/m
+      }
+    }
+    Output {
+      Element {
+        elementName Cu
+        quantity 0.1
+        unit g
+        service false
+      }
+      Element {
+        elementName Cu
+        quantity 1.5
+        unit g/m
+        service true
+      }
+    }
+  }
+}
+
+destination secondTest
