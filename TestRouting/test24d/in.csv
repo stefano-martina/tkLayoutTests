@@ -1,0 +1,5 @@
+zMin(mm),rMin(mm),Zmax(mm),rMax(mm),direction,quantity,unit,X0(g/cm2),density(g/cm3)
+//Attention: for making this work you need to block the material track gun at phi=Pi/2 
+//Attention: the values in modules are distributed in equivalent disk ((10/30)*PI*64.9)
+308.97,44.734,308.97,109.634,V,161.65,g,12.86,8.96
+314.97,95.09,314.97,159.99,V,267.12,g,12.86,8.96

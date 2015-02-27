@@ -17,6 +17,11 @@ echo "The pdf for the following tests will be created:"
 echo "    ${tests[@]}"
 echo ""
 
+if [ ! -d pdf ]
+then
+    mkdir pdf
+fi
+
 rm pdf/*
 
 for test in "${tests[@]}"
