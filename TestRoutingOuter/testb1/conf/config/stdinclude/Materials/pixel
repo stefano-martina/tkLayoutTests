@@ -1,0 +1,12 @@
+
+Materials module-pixel {
+  type module
+
+  // Default sensor:
+  ReferenceSensor 1 {
+    numStripsAcross 1024
+    numSegments 128
+  }
+
+}
+
